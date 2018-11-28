@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+	<head>
+		<title>Mega School</title>
+		<link rel="stylesheet" media="screen" href ="static/css/bootstrap.min.css">
+		<link rel="stylesheet" href="static/css/bootstrap-theme.min.css">
+	     	<meta name="viewport" content = "width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<section class="section mt-5">
+		     	<div class="container">
+			   	<div class="row">
+				 	<div class="col-md-6">
+						<h3> Mega School Controls </h3>
+						<h4> Set Max Temperature </h4>
+						<form  method = "post"> 
+							<div class="form-group">
+								<label for="formControlRange">Occupied</label>
+								<input type="number" class="form-control-range" id="formControlRange" name = "occupied" value = {{maxOccupied}}>
+							</div> 
+							
+							<div class="form-group">
+								<label for="formControlRange">Unoccupied</label>
+								<input type="number" class="form-control-range" id="formControlRange" name = "unoccupied" value = {{maxUnoccupied}}> 
+							</div> 
+							<button type="submit" class="btn btn-primary">Submit</button>
+							
+						</form>
+						<script type="text/javascript">
+							setInterval("my_function();",5000);
+							function my_function(){
+								window.location = location.href;
+							}
+						</script>
+						<div id="data">
+							<h5>Current Temperature: {{temperature}}</h3>
+							<h5>Occupancy: {{occupancy}}</h3>
+						</div> 
+					</div>
+			 	</div>
+		   	</div>
+	     	</div>
+	</body>
+</html>
+
