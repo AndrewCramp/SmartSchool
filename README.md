@@ -1,6 +1,3 @@
 ![Screenshot](SmartSchoolScreenshot.PNG)
-Format: ![Alt Text](url)
 ![Top View](SmartSchoolTopView.PNG)
-Format: ![Alt Text](url)
 ![Side View](SmartSchoolSideView.PNG)
-Format: ![Alt Text](url)
