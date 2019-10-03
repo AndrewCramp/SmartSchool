@@ -1,0 +1,6 @@
+![Screenshot](SmartSchoolScreenshot.png)
+Format: ![Alt Text](url)
+![Top View](SmartSchoolTopViewpng)
+Format: ![Alt Text](url)
+![Side View](SmartSchoolSideView.png)
+Format: ![Alt Text](url)
